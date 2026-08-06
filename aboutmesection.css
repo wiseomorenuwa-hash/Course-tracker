@@ -3,4 +3,8 @@
 }
 .text{
     text-align: justify;
+    color: rgb(44, 133, 143);
+}
+.me{
+    color: green;
 }

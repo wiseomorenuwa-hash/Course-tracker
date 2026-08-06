@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wisehub</title>
+    
     <link rel="icon" href="assets/images/background image.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Armata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="titlesection.css" />
     <link rel="stylesheet" href="aboutmesection.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
   </head>
 
   <body>
-
     <div class="main-section" id="title">
         <h1 class="welcome">Welcome to Wise's Website</h1>
         <p class="first">This is my First Webstie</p>
@@ -29,23 +33,24 @@
           assumenda delectus ipsum. Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Maiores itaque assumenda delectus ipsum.
         </p>
-      <div>
+        <div class="aboutme-icons">
+        <p class="icons">
+          <i class="aboutme-icon fa-brands fa-linkedin-in"></i>
+          <i class="aboutme-icon fa-brands fa-instagram"></i>
+          <i class="aboutme-icon fa-brands fa-facebook"></i>
+          <i class="aboutme-icon fa-regular fa-envelope"></i>
+        </p>
+        </div>
     </div>
 
-    <div>
-        <p class="icons-row" id="icons">
-          <img width="50px"  src="assets/icons/instagram.png" />
-          <img width="50px" src="assets/icons/facebook.png" />
-          <img width="50px" src="assets/icons/email.png" alt="" />
-          <img width="50px" src="assets/icons/linkedin.png" />
-        </p>
-      </div>
+    
     
   </body>
 </html>
 
 <style>
   * {
+    font-family: 'Verdana';
     box-sizing: border-box;
   }
   html,
@@ -64,12 +69,17 @@
   .aboutme {
     padding: 100px 25px;
   }
+
   .text-container {
     width: 90%;
-    border: solid 1px;
     margin: auto;
   }
-  icons-row {
-    vertical-align: top;
-  }
+.aboutme-icon{
+  margin: 10px;
+  color: green;
+}
+.aboutme-icon:hover{
+  cursor: pointer;
+  color
+}
 </style>
