@@ -6,5 +6,10 @@
     color: rgb(44, 133, 143);
 }
 .me{
+    
     color: green;
+}
+.me:hover{
+    cursor: pointer;
+  color: cyan;
 }
